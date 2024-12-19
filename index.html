@@ -126,6 +126,11 @@
 .hero .content a:hover {
     background-color: #5845b6;
 }
+.siteName {
+    overflow: hidden; /* Prevent scrollbars */
+    white-space: normal; /* Allow wrapping instead of scrolling */
+    max-width: 100%; /* Ensure it doesn't exceed container width */
+}
 
 
     </style>
@@ -170,7 +175,7 @@
     
         <!-- Content Section -->
         <div class="content">
-            <h1>Youth Talk</h1>
+            <h1 class="siteName">Youth Talk</h1>
             <p>Join us in breaking barriers and fostering open conversations about sexual health, consent, and relationships. Explore resources, ask questions, and take the first step toward informed, confident choices.</p>
             <a href="#explore" class="btn btn-primary">Explore</a>
         </div>
